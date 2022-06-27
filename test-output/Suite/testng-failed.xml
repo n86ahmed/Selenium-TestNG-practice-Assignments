@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="methods" name="TestQ6(failed)">
+    <classes>
+      <class name="ActualLab7.Q6">
+        <methods>
+          <include name="executeSession1"/>
+          <include name="executeSession3"/>
+          <include name="executeSession2"/>
+        </methods>
+      </class> <!-- ActualLab7.Q6 -->
+    </classes>
+  </test> <!-- TestQ6(failed) -->
+</suite> <!-- Failed suite [Suite] -->
